@@ -6,9 +6,17 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Titulo desde la metadata3`,
+    title: `Titulo desde la gatsby-config`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,
