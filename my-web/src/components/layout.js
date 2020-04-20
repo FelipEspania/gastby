@@ -15,8 +15,8 @@ export default ({ children }) => (
       <h1 style={{ float: `left`, display: `inline` }}>FelipeEspania</h1>
       <ul className="menu">
         <ListLink to="/">Inicio</ListLink>
-        <ListLink to="/about">Acerca de</ListLink>
         <ListLink to="/projects">Proyectos</ListLink>
+        <ListLink to="/contact">Contacto</ListLink>
       </ul>
     </header>
     <div className="clearfix"></div>

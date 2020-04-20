@@ -1,0 +1,30 @@
+article {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+article .suhogarsu {
+  width: 20%;
+  height: 130px;
+  overflow: hidden;
+  float: left;
+  margin-right: 15px;
+}
+
+article img {
+  width: 20%;
+  overflow: hidden;
+  float: left;
+  margin-right: 15px;
+}
+
+article h2 {
+  display: block;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 7px;
+}
