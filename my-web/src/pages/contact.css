@@ -1,0 +1,42 @@
+.formulario {
+  margin-top: 15%;
+}
+
+.form-group1 {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 50%;
+  float: left;
+}
+.form-group1 label {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 51%;
+  text-align: left;
+}
+
+.form-group1 input {
+  width: 180%;
+}
+
+.form-group2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 48%;
+  float: right;
+}
+
+.form-group2 label {
+  text-align: left;
+  width: 100%;
+}
+
+.form-group2 textarea {
+  width: 89%;
+  height: 102px;
+  max-width: 89%;
+  min-width: 89%;
+  min-height: 102px;
+  max-height: 200px;
+}

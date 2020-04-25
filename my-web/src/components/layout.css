@@ -6,10 +6,53 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -moz-osx-font-smoothing: antialiased;
+  background: linear-gradient(270deg, #57bc90, #76cad4);
+  background-size: 400% 400%;
+  -webkit-animation: cuerpo 30s ease infinite;
+  -moz-animation: cuerpo 30s ease infinite;
+  animation: cuerpo 30s ease infinite;
+}
+
+@-webkit-keyframes cuerpo {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes cuerpo {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes cuerpo {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.cuerpo {
+  /* background-color: #57bc90;*/
 }
 
 .center {
-  width: 50%;
+  width: 70%;
   margin: 0px auto;
 }
 
@@ -28,14 +71,31 @@ body {
 }
 
 footer {
-  background-color: #f7f7f7;
+  /*background-color: #f1f1f1;*/
   width: 100%;
   height: 70px;
   line-height: 70px;
   color: #444;
+  margin-top: 15%;
 }
 
 footer p {
   margin: 0px;
   padding: 0px;
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
 }
